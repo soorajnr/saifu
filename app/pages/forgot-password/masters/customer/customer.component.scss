@@ -1,0 +1,40 @@
+.my-custom-scrollbar {
+    position: relative;
+    height: 350px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+
+
+tr:hover {background-color:#3c8dbc;
+            color: white;}
+th{
+    background-color: #3c8dbc;
+    color: white;
+    border-radius: 10px;
+}
+
+.btns{
+    margin-left: 10px;
+}
+
+.CusList{
+    display: inline;
+}
+.CusAdd{
+    display: none;
+}
+
+hr {
+    width: 90%;
+    margin-bottom: 20px;
+    border: 1;
+    border-top: 1px solid #333;
+}
+
+select , option{
+    width: 60%;
+    height: 30px;
+}

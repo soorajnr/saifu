@@ -1,0 +1,240 @@
+<section class="content-header">
+  <section class="content">
+  <!-- content starts here -->
+    
+  <div class="form-group row">
+    <div class="col-sm-1" style="font-size: 30px;">Distributers</div>
+  </div>
+  <div class="form-group row">
+    <label class="col-sm-3"></label>
+  </div>
+ <div class="distList" id="distList">
+  <div class="form-group row">
+    <div class="col-sm-1" style="font-size: 18px">Search by</div>
+    
+  
+    <div class="col-md-9">
+      <div class="form-group row">
+        <label class="col-sm-1" style="padding-top: 6px;">#ID</label>
+        <div class="col-sm-2">
+          <input class="form-control" type="text" placeholder="#ID">
+        </div>
+        <label class="col-sm-1" style="padding-top: 6px;">Name</label>
+        <div class="col-sm-3">
+          <input class="form-control" type="text" placeholder="Name">
+        </div>
+        <label class="col-sm-1" style="padding-top: 6px;">Phone</label>
+        <div class="col-sm-3">
+          <input class="form-control" type="text" placeholder="Phone">
+        </div>
+        <button type="button" class=" col-xs-1 btn btn-success">Search</button>
+      </div>
+    </div>       
+  </div>
+
+  <table class="table table-bordered table-striped mb-0">
+    <thead>
+      <tr>
+        <th scope="col" width = "13%">#ID</th>
+        <th scope="col">Name</th>
+        <th scope="col" width = 30%>Address</th>
+        <th scope="col">Contact</th>
+        <th scope="col" width="16%" >Edit / Delete</th>
+      </tr>
+      </thead>
+    </table>
+
+<div class="table-wrapper-scroll-y my-custom-scrollbar text-center">
+
+<table class="table table-bordered table-striped mb-0">
+<thead> 
+<tr>
+  <td width="13%">1</td>
+  <td width = "19%">Saifu</td>
+  <td width = "30%">8686868686</td>
+  <td>da</td>
+  <td width = "15%">
+    <div class="btns">
+    <button type="button" class="btn btn-success">E</button>&nbsp;
+    <button type="button" class="btn btn-danger">X</button>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Saifu</td>
+  <td>8686868686</td>
+  <td>da</td>
+  <td width = "15%">
+    <div class="btns">
+    <button type="button" class="btn btn-success">E</button>&nbsp;
+    <button type="button" class="btn btn-danger">X</button>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Saifu</td>
+  <td>8686868686</td>
+  <td>da</td>
+  <td width = "15%">
+    <div class="btns">
+    <button type="button" class="btn btn-success">E</button>&nbsp;
+    <button type="button" class="btn btn-danger">X</button>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Saifu</td>
+  <td>8686868686</td>
+  <td>da</td>
+  <td width = "15%">
+    <div class="btns">
+    <button type="button" class="btn btn-success">E</button>&nbsp;
+    <button type="button" class="btn btn-danger">X</button>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Saifu</td>
+  <td>8686868686</td>
+  <td>da</td>
+  <td width = "15%">
+    <div class="btns">
+    <button type="button" class="btn btn-success">E</button>&nbsp;
+    <button type="button" class="btn btn-danger">X</button>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Saifu</td>
+  <td>8686868686</td>
+  <td>da</td>
+  <td width = "15%">
+    <div class="btns">
+    <button type="button" class="btn btn-success">E</button>&nbsp;
+    <button type="button" class="btn btn-danger">X</button>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Saifu</td>
+  <td>8686868686</td>
+  <td>da</td>
+  <td width = "15%">
+    <div class="btns">
+    <button type="button" class="btn btn-success">E</button>&nbsp;
+    <button type="button" class="btn btn-danger">X</button>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Saifu</td>
+  <td>8686868686</td>
+  <td>da</td>
+  <td width = "15%">
+    <div class="btns">
+    <button type="button" class="btn btn-success">E</button>&nbsp;
+    <button type="button" class="btn btn-danger">X</button>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>1</td>
+  <td>Saifu</td>
+  <td>8686868686</td>
+  <td>da</td>
+  <td width = "15%">
+    <div class="btns">
+    <button type="button" class="btn btn-success">E</button>&nbsp;
+    <button type="button" class="btn btn-danger">X</button>
+    </div>
+  </td>
+</tr>
+</thead>
+
+
+
+
+</table>
+
+</div>
+<br>
+<br>
+<div class="form-group row">
+<div class="text-right" style="padding-right: 20px;">
+<button class="btn btn-primary" (click)='Distadd()'>Add New</button>
+</div>
+</div>
+</div>
+
+
+<div class="distadder" id="distadder">
+<form class="form-group">
+
+<div class="col-md-9">
+  <div class="form-group row">
+    <label class="col-sm-1" style="padding-top: 6px;">#ID</label>
+    <div class="col-sm-3">
+      <input class="form-control" type="text" placeholder="#ID" disabled>
+    </div>
+  </div>
+</div> 
+
+<div class="col-md-9">
+  <div class="form-group row">
+    <label class="col-sm-1" style="padding-top: 6px;">Name</label>
+    <div class="col-sm-3">
+      <input class="form-control" type="text" placeholder="Name">
+    </div>
+    <label class="col-sm-1" style="padding-top: 6px;">Company</label>
+    <div class="col-sm-3">
+      <input class="form-control" type="text" placeholder=" Company Name">
+    </div>
+    <label class="col-sm-1" style="padding-top: 6px;">Currency</label>
+    <div class="col-sm-3">
+      <input class="form-control" type="text" placeholder="Currency">
+    </div>
+  </div>
+</div> 
+
+<div class="col-md-9">
+  <div class="form-group row">
+    <label class="col-sm-1" style="padding-top: 6px;">Address</label>
+    <div class="col-sm-3">
+      <textarea class="form-control" placeholder="Address" rows="3" placeholder="Address" style="resize: none;"></textarea>
+    </div>
+    <label class="col-sm-1" style="padding-top: 6px;">Mail</label>
+    <div class="col-sm-3">
+      <input class="form-control" type="text" placeholder="Mail Address">
+    </div>
+    <label class="col-sm-1" style="padding-top: 6px;">Phone</label>
+    <div class="col-sm-3">
+      <input class="form-control" type="text" placeholder="Phone">
+    </div>
+  </div>
+</div> 
+
+<div class="col-md-9">
+  <div class="form-group row">
+    <div class="col-md-3">
+        <button class="col-sm-5 btn btn-primary" (click)='Distadd()'>Add </button>
+        <label class="col-sm-2"></label>
+        <button class="col-sm-5 btn btn-danger" (click)="DistCancel()">Cancel</button>
+  
+    </div>
+  </div>
+</div> 
+      
+</form>
+</div>
+
+
+  <!-- content ends here -->
+  </section>
+</section>
